@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nalen's Portfolio</title>
+	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet'>
+</head>
+<body>
+	<div class="container">
+		<!--header-->
+		<div class="row header">
+			<div class="col-md-6 site-branding">
+				<img src="images/logo.png" class="logo img-responsive" alt="logo"/>
+			</div>
+			<div class="col-md-6 text-right text-uppercase site-heading">
+				<h1 class="title">Annalyn Aguilar</h1>
+				<p class="description">Front-end Developer</p>
+			</div>
+		</div> <!-- /header-->
+
+		<!-- hero -->
+		<div class="row">
+			<div class="col-12">
+				<div class="hero">
+					<img src="images/hero-image.png" alt="hero-image" class="img-responsive">
+				</div>
+			</div>
+		</div><!-- /hero-->
+
+		<!-- Featured Work -->
+		<div class="row">
+			<div class="col-md-12 featured-work">
+				<h2>Featured Work</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 items">
+				<!-- Image trigger modal -->
+				<img src="images/Thornbury-Builders-and-Trades-Big.png" alt="Thornbury Builders and Trades" class="img-responsive" data-toggle="modal" data-target="#myModal1">
+
+	           <h3>Thornbury Builders and Trades</h3>
+	          
+	          <!-- Modal -->
+				<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h3 class="modal-title" id="myModalLabel">Thornbury Builders and Trades</h3>
+				      </div>
+				      <div class="modal-body">
+				      	<img src="images/Thornbury-Builders-and-Trades.png" alt="Thornbury Builders and Trades" class="img-responsive">
+	          			<p><a href="http://thornburybuildersandtrades.com" target="_blank">Link to project</a></p>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 items">
+				<img src="images/Little-House-Of-Montessori.png" alt="Little House of Learning" class="img-responsive" data-toggle="modal" data-target="#myModal2" />
+
+				<h3>Little House Of Montessori</h3>
+
+	          <!-- Modal -->
+				<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h3 class="modal-title" id="myModalLabel1">Little House Of Montessori</h3>
+				      </div>
+				      <div class="modal-body">
+				      	<img src="images/Little-House-Of-Montessori-medium.png" alt="Little House of Learning" class="img-responsive">
+	          			<p><a href="http://totaleworks.net/lhm" target="_blank">Link to project</a></p>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 items">
+				<img src="images/Clarks-Barrie.png" alt="Clarks Barrie" class="img-responsive" data-toggle="modal" data-target="#myModal3" />
+
+				<h3>Clarks Barrie</h3>
+
+				 <!-- Modal -->
+				<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h3 class="modal-title" id="myModalLabel3">Clarks Barrie</h3>
+				      </div>
+				      <div class="modal-body">
+				      	<img src="images/Clarks-Barrie-medium.png" alt="Clarks Barrie" class="img-responsive">
+	          			<p><a href="http://clarksbarrie.com" target="_blank">Link to project</a></p>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div> <!-- Featured Work -->
+	</div><!-- .container -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- Bootstrap minified javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	$('#myModal').on('shown.bs.modal', function () {
+		    $('#myInput').focus()
+		  })
+    </script>
+</body>
+</html>
