@@ -1,0 +1,105 @@
+
+
+* {
+	font-family: "Lato", sans-serif;
+	color: #747704;
+}
+
+/* Media Queries */
+
+/* small*/
+@media only screen and (max-width: 400px) {
+	* {
+		text-align: center;
+	}
+    .header {
+        height: 350px;
+    }
+    .site-heading {
+    	float: left;
+    	text-align: center;
+    	background: blue;
+    	color: #fff;
+    }
+    .logo {
+    	text-align: center;
+    	padding: 10px 120px;
+    }
+    .header p {
+    	color: #fff;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 767px) {
+	.header {
+		height: 150px;
+	}
+	.site-heading {
+		position: relative;
+		bottom: 150px;
+	}
+	.title {
+		padding: 20px;
+	}
+	.description {
+		padding: 0 20px;
+		bottom: 40px;
+	}
+ 
+}
+
+/*layout*/
+
+.header {
+	height: 150px;
+	margin-bottom: 30px;
+	border-bottom: 4px solid #bcbbbb;
+}
+
+.site-heading, site-branding {
+	padding: 0;
+}
+
+.title {
+	font-weight: 100;
+	font-size: 55px;
+}
+.description {
+	clear: both;
+	position: relative;
+	font-size: 21px;
+	font-weight: normal;
+}
+
+.hero {
+	margin-bottom: 30px;
+}
+
+.featured-work h2 {
+	margin-bottom: 20px;
+	color: #bcbbbb;
+	font-weight: 100;
+	font-size: 30px;
+}
+
+.items {
+	text-align: center;
+}
+.items h3 {
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.items img {
+	padding: 0 0 20px 0;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+
+
+
+
+
